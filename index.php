@@ -7,7 +7,7 @@ $signPackage = $jssdk->GetSignPackage();
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>爱鲜蜂</title>
+	<title>aixianfeng</title>
 	<meta name = "viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 	<link rel="stylesheet" type="text/css" href="home.css">
