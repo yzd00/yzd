@@ -1,0 +1,20 @@
+define(["text!./home.html","$css!./home.css"], function(homePage){
+	return{
+		init:function(){
+			if($(".home").children().size()>0){
+				$(".home").show().siblings("div").hide();
+			}else{
+				$(".home").html(homePage).show().siblings("div").hide();
+			};
+			$.ajax({
+				url:"data/home.json",
+				async:true,
+				success:function(data){
+					$(".home-wrap").load("temp/home-tmp.html",function(){
+						$(this).html(baidu.template("homes",data));
+					})
+				}
+			});
+		}
+	}
+});

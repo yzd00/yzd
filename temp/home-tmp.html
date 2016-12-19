@@ -1,0 +1,43 @@
+<script type="text/html" id="homes">
+	<ul class="miao">
+		<%for(var i=0;i<4;i++){%>
+			<li>
+				<img src=<%=data.act_info[1].act_rows[i].activity.img%>>
+				<p><%=data.act_info[1].act_rows[i].activity.name%></p>
+			</li>
+		<%}%>
+	</ul>
+	<div class="bg-color"></div>
+	<div class="nai">
+		<%for(var i=0;i<3;i++){%>
+			<img src=<%=data.act_info[3].act_rows[i].activity.img%>>
+		<%}%>
+	</div>
+	<div class="bg-color"></div>
+	<div class="bian">
+		<div class="bian_h" style="background-image:url(<%=data.act_info[4].act_rows[0].act_rows[0].chead_detail.img%>);"></div>
+		<div class="rexiao">
+			<div class="re-left" style="background-image:url(<%=data.act_info[4].act_rows[1].act_rows[0].cactivity_detail.img%>)"></div>
+			<div class="re-right" style="background-image:url(<%=data.act_info[4].act_rows[1].act_rows[1].cactivity_detail.img%>)"></div>
+		</div>
+		<ul class="youxuan">
+			<li>
+				<p>优选水果</p>
+			</li>
+			<li>
+				<p>牛奶面包</p>
+			</li>
+			<li>
+				<p>饮料酒水</p>
+			</li>
+			<li>
+				<p>更多</p>
+			</li>
+		</ul>
+		<div class="bian-down"></div>
+		<div class="bian-down"></div>
+		<div class="bian-down"></div>
+		<div class="bian-down"></div>
+		<div class="bg-color"></div>
+	</div>
+</script>

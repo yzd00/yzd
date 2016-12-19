@@ -1,0 +1,255 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 0.386473rem;
+  font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif, "Microsoft Yahei", Simsun;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+img {
+  border: none;
+}
+header {
+  width: 100%;
+  height: 1.449275rem;
+  line-height: 1.449275rem;
+  background: #ffd600;
+  position: fixed;
+  z-index: 999;
+}
+header .add {
+  width: 3.864734rem;
+  text-align: center;
+  margin: 0 auto;
+}
+header .add:after {
+  content: "a";
+  font-size: 0;
+  border-top: 0.241546rem solid #000;
+  border-right: 0.120773rem solid transparent;
+  border-left: 0.120773rem solid transparent;
+  border-bottom: 0.241546rem solid transparent;
+}
+header .search {
+  width: 0.966184rem;
+  height: 1.449275rem;
+  line-height: 2.173913rem;
+  text-align: right;
+  font-size: 0.338164rem;
+  position: absolute;
+  right: 0.241546rem;
+  top: 0;
+  background: url(img/search.png) no-repeat right 0.241546rem;
+  background-size: 0.603865rem 0.603865rem;
+}
+.banner {
+  padding-top: 1.449275rem;
+}
+.banner img {
+  width: 100%;
+  margin-bottom: -0.096618rem;
+}
+.bg-color {
+  clear: both;
+  width: 100%;
+  height: 0.241546rem;
+  background: #efefef;
+}
+.content .miao {
+  width: 100%;
+  height: 2.801932rem;
+  padding: 0.362319rem 0 0 0;
+}
+.content .miao li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.content .miao li span {
+  background: url(img/miao.png) no-repeat 0 0;
+  display: block;
+  height: 1.449275rem;
+  width: 2.173913rem;
+  background-size: 2.173913rem 1.449275rem ;
+  margin: 0 auto;
+}
+.content .nai li {
+  float: left;
+  width: 33.3%;
+  border-right: 1px solid #efefef;
+  height: 4.347826rem;
+  background: url(img/nai.jpg) no-repeat;
+  background-size: 100%;
+}
+.content .bian {
+  width: 100%;
+}
+.content .bian .bian_h {
+  height: 1.449275rem;
+  width: 100%;
+  background: url(img/bian.png) no-repeat 0 0;
+  background-size: 100%;
+}
+.content .bian .rexiao {
+  height: 2.173913rem;
+  padding: 0.144928rem;
+}
+.content .bian .rexiao .re-left {
+  display: inline-block;
+  width: 45%;
+  height: 1.835749rem;
+  background: url(img/rexiao.jpg) no-repeat;
+  background-size: 100%;
+  margin: 0.144928rem;
+}
+.content .bian .rexiao .re-right {
+  display: inline-block;
+  width: 45%;
+  height: 1.835749rem;
+  background: url(img/rexiao.jpg) no-repeat;
+  background-size: 100%;
+  margin: 0.120773rem;
+}
+.content .bian .youxuan {
+  clear: both;
+  margin-top: 0.241546rem;
+}
+.content .bian .youxuan li {
+  float: left;
+  width: 25%;
+  height: 2.608696rem;
+  background: url(img/bian1.png) no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 1.690821rem;
+}
+.content .bian .bian-down {
+  width: 50%;
+  border-top: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+  height: 2.028986rem;
+  background: url(img/bian2.png) no-repeat;
+  background-size: 100%;
+  float: left;
+}
+.you h2 {
+  height: 0.483092rem;
+  line-height: 0.483092rem;
+  margin: 0.483092rem 0.241546rem 0.241546rem 0.241546rem;
+  color: #f38631;
+  font-size: 0.386473rem;
+  border-left: 0.241546rem solid #f38631;
+  text-indent: 0.241546rem;
+}
+.you h2 .more {
+  float: right;
+  color: #ccc;
+  font-weight: normal;
+}
+.you .you-banner {
+  height: 2.36715rem;
+  background: url(img/you-banner.jpg) no-repeat;
+  background-size: 100%;
+  margin: 0.241546rem 0.241546rem 0.241546rem 0.241546rem;
+}
+.you .you-li {
+  height: 6.038647rem;
+  padding: 0 0 0.241546rem 0;
+}
+.you .you-li li {
+  float: left;
+  width: 33%;
+  border-right: 1px solid #ccc;
+  position: relative;
+  padding: 0.241546rem;
+}
+.you .you-li li:last-child {
+  border-right: none;
+}
+.you .you-li .you-img {
+  width: 100%;
+  height: 2.898551rem;
+  background: url(img/you-li1.jpg) no-repeat;
+  background-size: 100%;
+}
+.you .you-li .you-name {
+  height: 0.772947rem;
+  line-height: 0.772947rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.you .you-li .you-jing {
+  display: block;
+  height: 0.434783rem;
+  width: 0.869565rem;
+  font-size: 0.289855rem;
+  color: red;
+  border: 1px solid red;
+  border-radius: 0.096618rem;
+  text-align: center;
+}
+.you .you-li .you-weight {
+  color: #ccc;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  height: 0.821256rem;
+  line-height: 0.821256rem;
+}
+.you .you-li .you-money {
+  color: red;
+}
+.you .you-li .add {
+  width: 0.869565rem;
+  height: 0.869565rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: url(img/add.png) no-repeat center;
+  position: absolute;
+  bottom: 0;
+  right: 0.241546rem;
+}
+footer {
+  height: 1.449275rem;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  background: #f5f5f5;
+  opacity: 0.9;
+  font-size: 0.289855rem;
+}
+footer .footer {
+  height: 100%;
+  width: 25%;
+  padding-top: 0.917874rem;
+  text-align: center;
+}
+footer .f1 {
+  background: url(img/f1.png) no-repeat center 0.193237rem;
+  background-size: 25%;
+}
+footer .f2 {
+  background: url(img/f2.png) no-repeat center 0.193237rem;
+  background-size: 25%;
+}
+footer .f3 {
+  background: url(img/f3.png) no-repeat center 0.193237rem;
+  background-size: 25%;
+}
+footer .f4 {
+  background: url(img/f4.png) no-repeat center 0.193237rem;
+  background-size: 25%;
+}
