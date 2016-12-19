@@ -1,5 +1,4 @@
-<?php 
-require_once "jssdk.php";
+<?require_once "jssdk.php";
 // appId  和 秘钥
 $jssdk = new JSSDK("wx6a53808c16c3eed1", "63f7d5cee917f3d9d9a35613cfee91fd");
 $signPackage = $jssdk->GetSignPackage();
@@ -10,8 +9,8 @@ $signPackage = $jssdk->GetSignPackage();
 	<meta charset="UTF-8">
 	<title>爱鲜蜂</title>
 	<meta name = "viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="home.css">
     <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<link rel="stylesheet" type="text/css" href="home.css">
 	<script type="text/javascript" src="js/baiduTemplate.js"></script>
     <script data-main = "main.js" type="text/javascript" src = "js/require.js"></script>
 </head>
