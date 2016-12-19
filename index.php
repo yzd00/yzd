@@ -9,9 +9,9 @@ $signPackage = $jssdk->GetSignPackage();
 <head>
 	<meta charset="UTF-8">
 	<title>爱鲜蜂</title>
-	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 	<meta name = "viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="home.css">
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 	<script type="text/javascript" src="js/baiduTemplate.js"></script>
     <script data-main = "main.js" type="text/javascript" src = "js/require.js"></script>
 </head>
@@ -37,7 +37,7 @@ $signPackage = $jssdk->GetSignPackage();
  wx.config({
     debug: true,
     appId: '<?php echo $signPackage["appId"];?>',
-    timestamp: '<?php echo $signPackage["timestamp"];?>',
+    timestamp: <?php echo $signPackage["timestamp"];?>,
     nonceStr: '<?php echo $signPackage["nonceStr"];?>',
     signature: '<?php echo $signPackage["signature"];?>',
      jsApiList: [
