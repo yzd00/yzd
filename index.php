@@ -84,12 +84,12 @@ $signPackage = $jssdk->GetSignPackage();
              var speed = res.speed; // 速度，以米/每秒计
              var accuracy = res.accuracy; // 位置精度
             alert("经度，"+longitude+"维度，"+latitude)
-         },
+         }
          // cancel: function (res) {
          //     alert('用户拒绝授权获取地理位置');
          // }
      });
- }
+ };
      
 </script>
 </html>
