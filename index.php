@@ -15,7 +15,8 @@ $signPackage = $jssdk->GetSignPackage();
     <script data-main = "main.js" type="text/javascript" src = "js/require.js"></script>
 </head>
 <body>
-	<!-- <div class="home"></div>
+	<input type="button" value="获取位置" id="btn">
+	<div class="home"></div>
 	<div class = "market"></div>	
 	<div class = "cart"></div>
 	<div class = "mine"></div>
@@ -24,8 +25,8 @@ $signPackage = $jssdk->GetSignPackage();
 		<div class="footer f2"><a href="#market">闪送超市</a></div>
 		<div class="footer f3"><a href="#cart">购物车</a></div>
 		<div class="footer f4"><a href="#mine">我的</a></div>
-	</footer> -->
-    <input type="button" value="获取位置" id="btn">
+	</footer>
+    
 </body>
 <script type="text/javascript">
 	document.documentElement.style.fontSize=innerWidth/10+"px";
